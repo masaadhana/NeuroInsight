@@ -1,0 +1,18 @@
+{
+  "scope": "training-only; validation and test outcomes not read",
+  "n_train": 385,
+  "n_features": 138,
+  "source_feature_auc": {
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "balanced_accuracy_mean": 0.9988700564971751,
+    "balanced_accuracy_std": 0.002880801985080662
+  },
+  "source_only_label_auc": {
+    "auc_mean": 0.6371539496209343,
+    "auc_std": 0.03549272408175141,
+    "balanced_accuracy_mean": 0.6371539496209342,
+    "balanced_accuracy_std": 0.03549272408175139
+  },
+  "interpretation": "Image-to-source AUC near 0.50 indicates successful reduction of source signatures. A high value means do not train an all-562 diagnostic model yet, even if label metrics look strong."
+}
