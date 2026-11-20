@@ -1,0 +1,5 @@
+stage,selection_rank,model_name,validation_accuracy,validation_precision,validation_recall,validation_f1,validation_roc_auc,validation_tn,validation_fp,validation_fn,validation_tp,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_tn,test_fp,test_fn,test_tp
+candidate_internal_validation,1,Random Forest,0.9777777777777777,0.9565217391304348,1.0,0.9777777777777777,1.0,22,1,0,22,,,,,,,,,
+candidate_internal_validation,2,Gradient Boosting,0.9777777777777777,0.9565217391304348,1.0,0.9777777777777777,1.0,22,1,0,22,,,,,,,,,
+candidate_internal_validation,3,Logistic Regression,0.9555555555555556,0.9166666666666666,1.0,0.9565217391304348,0.9980237154150198,21,2,0,22,,,,,,,,,
+selected_model_final_test,1,Random Forest,0.9777777777777777,0.9565217391304348,1.0,0.9777777777777777,1.0,22,1,0,22,1.0,1.0,1.0,1.0,0.9999999999999999,28.0,0.0,0.0,28.0
