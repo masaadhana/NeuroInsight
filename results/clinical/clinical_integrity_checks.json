@@ -1,0 +1,20 @@
+{
+  "duplicate_subjects_train": 0,
+  "train_target_distribution": {
+    "0": 111,
+    "1": 110
+  },
+  "train_missing_values_by_feature": {
+    "NP3FTAPL": 1,
+    "NP3HMOVL": 1,
+    "NP3PTRML": 1
+  },
+  "train_test_subject_overlap": 0,
+  "canonical_contains_all_train_test_subjects": true,
+  "duplicate_subjects_test": 0,
+  "test_target_distribution": {
+    "0": 28,
+    "1": 28
+  },
+  "test_missing_values_by_feature": {}
+}
